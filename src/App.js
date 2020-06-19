@@ -1,8 +1,11 @@
 import React from 'react';
+import Portfolio from './pages/Portfolio';
 
 function App() {
   return (
-    <h1> Hello World </h1>
+    <div className="App">
+      <Portfolio/>
+    </div>
   );
 }
 
