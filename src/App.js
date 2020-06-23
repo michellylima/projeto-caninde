@@ -1,8 +1,12 @@
 import React from 'react';
+import Home from './pages/Home';
+import './global.css';
 
 function App() {
   return (
-    <h1> Hello World </h1>
+    <>
+    <Home />
+    </>
   );
 }
 
