@@ -1,0 +1,45 @@
+.home-container #banner-principal {
+    width: 100%;
+    display: block;
+}
+
+.home-container .secao1{
+    background-color: #0099FF;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.home-container .secao1-container, .home-container .secao2-container{
+    margin: auto;
+    position: relative;
+    width: 900px;
+}
+
+.home-container .secao1 .secao1-esquerda{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #fff;
+    width: 50%;
+    padding: 5rem 0 3rem 0;
+}
+
+
+.home-container .secao1-direita-flutante{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20rem;
+    height: 24rem;
+    background-color: #FFCC0E;
+}
+
+.home-container .secao2 .secao2-container{
+    width: 900px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    padding: 7rem 0 3rem 0;
+
+}
