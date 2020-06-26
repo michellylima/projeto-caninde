@@ -7,8 +7,6 @@ import instagram from '../../assets/instagram.svg'
 import linkedin from '../../assets/linkedin.svg'
 import behance from '../../assets/behance.svg'
 
-
-
 export default function Footer(){
     return(
         <div className='footer-container'>
@@ -22,9 +20,6 @@ export default function Footer(){
                     74690-900<br/>
                     <br/>
                     Telefone: (62) 98274-7296<br/>
-
-
-
 
                 </p>
             </div>
@@ -41,12 +36,8 @@ export default function Footer(){
                 <a href='https://www.instagram.com/canindesign/' target="_blank" rel='noopener noreferrer'><img className='socialmedia instagram' src={instagram} alt='' /></a>
                 <a href='https://www.linkedin.com/company/canindesign/about/' target="_blank" rel='noopener noreferrer'><img className='socialmedia linkedin' src={linkedin} alt='' /></a>
                 <a href='https://www.behance.net/canindesign' target="_blank" rel='noopener noreferrer'><img className='socialmedia behance' src={behance} alt='' /></a>
-                 
-            
-                
+  
             </div>
-
-
 
         </div>
     );

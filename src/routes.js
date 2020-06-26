@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Portfolio from './pages/Portfolio'
 import Servicos from './pages/Servicos'
 import Contato from './pages/Contato'
+import About from './pages/About'
 
 export default function Routes(){
     return(
@@ -14,6 +15,7 @@ export default function Routes(){
                 <Route path="/portfolio" component={Portfolio} />
                 <Route path="/servicos" component={Servicos} />
                 <Route path="/contato" component={Contato} />
+                <Route path="/about" component={About} />
             </Switch>
         </BrowserRouter>
 

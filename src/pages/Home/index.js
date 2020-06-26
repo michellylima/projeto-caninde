@@ -20,7 +20,8 @@ export default function Home(){
                         </div>
 
                         <div className='secao1-direita-flutante'>
-
+                            <p>Vamos fazer o seu projeto voar?</p>
+                            <div className='fazer-orcamento'><a href='/#'>Fazer Orçamento</a></div>
                         </div>
                     </div>
                 </section>
@@ -29,6 +30,7 @@ export default function Home(){
                     <div className='secao2-container'>
                         <h1>Trabalhamos com sonhos <br/>e mais que isso, tornamos <br/>eles <span style={{color: '#0BFEFF'}}>realidade</span>_ </h1>
                         <div className='projetos-container'>
+
                             <div className='projeto'>
                                 <img className='imagem-projeto' src={ImagemProjeto} alt=''/> 
                                 <h3>Nome do Projeto</h3>
@@ -41,12 +43,36 @@ export default function Home(){
                                 <p>Descrição que é uma frase inicial sobre o projeto e para quem foi feito</p>
                             </div>
 
-
                         </div>
+                        <h2 id='link-projetos'><a href='/#'> Confira todos os nossos projetos </a></h2>
                     </div>
                 </section>
 
-                <div style={{height: '30rem'}}></div>
+                <section className='secao3'>
+                    <div className='secao3-container'>
+                    <h1>Construímos nossos <br/>resultados <span style={{color: '#0BFEFF'}}>juntos</span>, estamos <br/>ligados pela nossa diversidade <br/>e visão compartilhadas_</h1>
+                    <div className='secao3-sub sub-secao1'>
+                        <h3><a href='/#'>Design de <br/>Ambientes</a></h3>
+                        <p>Confira quais são os nossos serviços <br/> de ambientes e produtos que <br/>podemos realizar para você.</p>
+                    </div>
+
+                    <div className='secao3-sub sub-secao2'>
+                        <h3><a href='/#'>Design Gráfico <br/>& Branding</a></h3>
+                        <p>Confira quais são os nossos serviços <br/> de ambientes e produtos que <br/>podemos realizar para você.</p>
+                    </div>
+
+                    <div className='secao3-sub sub-secao3'>
+                        <h3><a href='/#'>Ux/Ui Design<br/>Site e Apps</a></h3>
+                        <p>Confira quais são os nossos serviços <br/> de ambientes e produtos que <br/>podemos realizar para você.</p>
+                    </div>
+
+
+
+                    </div>
+            
+                </section>
+
+                
             <Footer />
         </div>
     );
