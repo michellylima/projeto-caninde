@@ -1,0 +1,56 @@
+.footer-container{
+    padding-top: 4rem;
+    font-family: sans-serif;
+    font-weight: bold;
+    height: 18rem;
+    width: 100%;
+    background-color: #0099FF;
+    display: flex;
+    justify-content: space-evenly;
+  
+}
+
+.footer-container #footer-logo{
+    position: relative;
+    top: -1rem;
+}
+
+.footer-container a:visited, .header-menu-container a{
+    color: #fff;
+}
+
+.footer-container p{
+    color: #fff;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+
+}
+
+.footer-container .whatsappDiv{
+    border: 2px solid #fff;
+    width: fit-content;
+    padding: 0.4rem 1.3rem 0.4rem 1.3rem;
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.footer-container .socialmedia{
+    width: 32px;
+    margin: 0.4rem;
+}
+
+.footer-container .behance{
+    width: 40px;
+    position: relative;
+    top: 0.5rem;
+}
+
+@media (max-width: 750px){
+    .footer-container{
+        flex-direction: column;
+        align-items: center;
+        height: 40rem;
+    }
+}
