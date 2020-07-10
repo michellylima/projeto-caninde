@@ -10,6 +10,7 @@ export default function HeaderMenu(){
             <a href='/#'><img id='header-menu-logo' alt='' src={logoHeaderMenu}></img></a>
             <nav className='nav-bar'>
                 <ul>
+                    <li><Link to='/sobre'>Sobre nós</Link></li>
                     <li><Link to='/portfolio'>Portfólio</Link></li>
                     <li><Link to='/servicos'>Serviços</Link></li>
                     <li><Link to='/contato'>Contato</Link></li>
