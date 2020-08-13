@@ -1,43 +1,92 @@
+.about-container {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .about-intro-container {
   background-color: #232323;
 }
 
 .about-intro{
   margin: 0 18% 0 18%;
-  background-color: #2B2B2B;
+  background-size: 4.99% 4.4%;
+  background-image:
+  linear-gradient(to right, #44cdcb 1px, transparent 1px),
+  linear-gradient(to bottom, #44cdcb 1px, transparent 1px);
   color: white;
   text-align: center;
-  padding: 0 50px 0 50px;
+  padding: 0 60px 0 60px;
 }
 
 .about-intro p{
+  font-weight: bold;
   text-align: justify;
   padding: 100px 0 100px 0;
 }
 
 .about-intro h1{
   padding-top: 300px;
-  font-size: 50px;
+  font-size: 60px;
   margin-bottom: 300px;
+}
+
+.about-intro h2{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
 }
 
 .about-members h2{
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 50px;
-  color: #0499b9;
+  color: #029ab8;
+}
+
+.about-members {
+  margin: 0 18% 0 18%;
+  background-size: 4.99% 6.5%;
+  background-image:
+  linear-gradient(to right, #44cdcb 1px, transparent 1px),
+  linear-gradient(to bottom, #44cdcb 1px, transparent 1px);
+
 }
 
 .members-container div {
   width: 100px;
   height: 100px;
   border-radius: 150px;
-  outline: 5px solid #0499b9;
+  outline: 5px solid #029ab8;
 }
 
 .members-container {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 50px;
+  align-items: center;
+  justify-content: center;
   color: #0499b9;
-  background-color: white;
+  
+}
+
+.members {
+  text-align: center;
+}
+
+.members-container > .members {
+  grid: 1 1 25%; /*grow | shrink | basis */
+  height: 100px;
+}
+
+.bottom-container h2{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  color: #029ab8;
+}
+
+.bottom-container p{
+  font-weight: bold;
+  text-align: justify;
+  padding: 0 60px 100px 60px;
 }

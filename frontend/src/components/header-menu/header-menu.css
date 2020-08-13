@@ -37,7 +37,32 @@
 
 .header-menu-container a:visited, .header-menu-container a{
     color: #fff;
+    text-decoration: none;
+    
 }
+
+.header-menu-container li::after{
+    content: '';
+    display: block;
+    background-color: #fff;
+    width: 0%;
+    height: 2px;
+    margin: auto;
+    transition: width ease-in-out 200ms;
+    
+}
+.header-menu-container li:hover{
+    text-shadow: 1px 1px 0px rgb(0, 75, 88) ,1px 1px 10px rgba(113, 255, 231, 0.8);
+
+}
+
+.header-menu-container li:hover::after{
+    width: 100%;
+    
+   
+}
+
+
 
 @media (max-width: 900px){
     .header-menu-container .nav-bar{
