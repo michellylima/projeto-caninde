@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import "./styles.css";
-import "./../../global.css";
+import "./../../global.css"
 
 const members = [
   {id: '1', name: 'Pedro', role: 'Finanças'},
@@ -9,9 +9,11 @@ const members = [
   {id: '3', name: 'Michelly', role: 'Gestor de projetos'},
   {id: '4', name: 'João', role: 'Membro'},
   {id: '5', name: 'Gabriel', role: 'Membro'},
-  {id: '6', name: 'Gustavo', role: 'Membro'}
+  {id: '6', name: 'Gustavo', role: 'Membro'},
+  {id: '7', name: 'Mateus', role: 'Membro'},
+  {id: '8', name: 'Júlio', role: 'Membro'}
 ];
-export default class SobreNos extends Component {
+export default class About extends Component {
     render() {
         return (
             <div className="about-container">
@@ -35,6 +37,17 @@ export default class SobreNos extends Component {
                             <p>{member.name}</p>
                         </div>
                         ))}
+                    </div>
+
+                    <div className="bottom-container">
+                    <h2>Lorem Ipsum</h2>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
                     </div>
                 </div>
             </div>
